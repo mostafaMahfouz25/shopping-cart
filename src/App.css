@@ -1,0 +1,41 @@
+*
+{
+  transition: 0.4s;
+}
+
+
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite:#f3f3f3;
+  --mainDark:#232528;
+  --mainYellow:#ffa400;
+}
+body{
+  font-family: 'Oswald', sans-serif !important;
+  background-color: var(--mainWhite) !important;
+  color: var(--mainDark);
+}
+.text-title
+{
+  font-family: 'Permanent Marker', cursive; 
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-dark
+{
+  color: var(--mainDark);
+}
+.text-blue
+{
+  color: var(--mainBlue);
+}
+.text-bright
+{
+  color: var(--lightBlue);
+}
+.hover-light:hover
+{
+  color: var(--mainWhite);
+  background-color: var(--mainYellow);
+}
